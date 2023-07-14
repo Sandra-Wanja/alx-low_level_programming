@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * Entry point of the program
+ * main - Entry point
  *
- * This function initializes the program and executes the main logic
- *
- * @return 0 upon successful execution
+ * Return : Always 0 (success)
  */
 int main(void)
 {
