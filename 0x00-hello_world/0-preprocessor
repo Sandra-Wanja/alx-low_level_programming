@@ -1,2 +1,2 @@
 #!/bin/bash
-$CFILE -o c
+cpp -E $CFILE -o c
