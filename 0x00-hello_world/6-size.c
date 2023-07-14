@@ -3,9 +3,7 @@
 /**
  * main - Entry point
  *
- * int i;
- * double d;
- * char c;
+ * This function initializes the program and executes the main logic
  *
  * Return : Always 0 (success)
  */
