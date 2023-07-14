@@ -3,6 +3,8 @@
 /**
  * main - Entry point
  *
+ * Description: 'prints size of various types'
+ *
  * Return : Always 0 (success)
  */
 int main(void)
