@@ -1,24 +1,24 @@
-#include <stdio.h>
-
 /**
- * main - prints seperated single digits
- *
- * Return: Always 0 (Success)
- */
+  * main - Prints a serie of numbers with commas
+  *
+  * Return: Always (Success);
+  */
 int main(void)
 {
-	int a;
+	int c;
 
-	for (a = '0'; a <= '9'; a++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar(a);
+		putchar(c);
+
+		if (c != '9')
 		{
-			if (a < '8')
 			putchar(',');
 			putchar(' ');
 		}
 	}
+
 	putchar('\n');
+
 	return (0);
 }
-
