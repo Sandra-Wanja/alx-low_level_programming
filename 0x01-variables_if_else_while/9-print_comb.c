@@ -1,7 +1,9 @@
+#include <stdio.h>
+
 /**
-  * main - Prints a serie of numbers with commas
+  * main - prints numbers seperated by commas and spaces
   *
-  * Return: Always (Success);
+  * Return: Always 0 (Success)
   */
 int main(void)
 {
