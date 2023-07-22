@@ -1,8 +1,8 @@
-int int_putchar(char c);
+int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
-int int_is lower(int c);
-int-isalpha(int c);
+int int_islower(int c);
+int int_isalpha(int c);
 int prints_sign(int n);
 int int_abs(int);
 int print_last_digit(int);
