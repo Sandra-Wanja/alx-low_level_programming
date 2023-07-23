@@ -2,7 +2,8 @@
 
 /**
  * print_line - it draws a staright line
- * @n: the number of times the character '_' should be printed
+ * @n: the number of times '_' is printed
+ * Return: void
  */
 void print_line(int n)
 {
