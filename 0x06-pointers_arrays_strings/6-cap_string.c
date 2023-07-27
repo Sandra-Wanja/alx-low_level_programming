@@ -3,9 +3,9 @@
 
 /**
   * cap_string - capitalizes all words of a string
-  * @s: string to be capitalized 
+  * @s: ...
   *
-  * Return: char
+  * Return: Char
   */
 char *cap_string(char *s)
 {
