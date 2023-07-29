@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
- * main - Prints if number is positive, zero or negative
- *
+ * positive_or_negative - Prints if number is positive, zero or negative
+ * @i: integer to check
  * Return: void
  */
 void positive_or_negative(int i)
 {
+	int i;
+
 	if (i > 0)
 	{
 		printf("%d is positive\n", i);
