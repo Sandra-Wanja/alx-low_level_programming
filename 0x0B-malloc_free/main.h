@@ -2,5 +2,6 @@
 #define _MAIN_H
 
 int **alloc_grid(int width, int height);
+char *_strdup(char *str);
 
 #endif
