@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,11 +7,11 @@
  *
  * Return: always 0 (success)
  */
-int main(int argc, char *argv[]);
+int main(int argc, char *argv[])
 {
 	(void) argc;
 
-	printf("%s\n", argv[0])
+	_putchar("%s\n", argv[0]);
 
 	return (0);
 }
