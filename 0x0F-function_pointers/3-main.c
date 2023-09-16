@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	a = atoi(agrv[1]);
+	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 
 	printf("%d\n", operator(a, b));
