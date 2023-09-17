@@ -19,13 +19,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		ptr = va_arg(listed, char *);
 
-		if (ptr != NULL)
+		if (ptr)
 			printf("%s", ptr);
 		else
 			printf("nil");
 
 		if (x < n - 1)
-			if (separator != NULL)
+			if (separator)
 				printf("%s", separator);
 	}
 
