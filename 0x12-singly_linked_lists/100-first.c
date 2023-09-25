@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * beforemain - function that should be 
+ * beforemain - function that should be
  * executed before the main function
  *
  * Return: void
