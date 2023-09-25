@@ -29,17 +29,17 @@ void print_all(const char * const format, ...)
 		switch (format[n])
 		{
 		case 'c':
-			printf("%c", va_arg(mylist, int)), c = 1;
+			printf("%c", va_arg(mylist, int)), o = 1;
 			break;
 		case 'i':
-			printf("%d", va_arg(mylist, int)), i = 1;
+			printf("%d", va_arg(mylist, int)), n = 1;
 			break;
 		case 'f':
-			printf("%f", va_arg(mylist, double)), c = 1;
+			printf("%f", va_arg(mylist, double)), o = 1;
 			break;
 		case 's':
-			str = va_arg(mylist, char *), c = 1;
-			if (!str)
+			ptr = va_arg(mylist, char *), o = 1;
+			if (!ptr)
 			{
 				printf("(nil)");
 				break;
