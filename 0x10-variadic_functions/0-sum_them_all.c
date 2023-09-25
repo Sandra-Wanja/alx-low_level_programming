@@ -1,10 +1,10 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - returns sum
- * @n: no of args
+ * sum_them_all - returns summ
+ * @n: int value
  *
- * Return: addition product
+ * Return: the sum
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -22,5 +22,4 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_end(newnums);
 
-	return (add);
-}
+	return (add)
